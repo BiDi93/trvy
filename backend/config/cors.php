@@ -8,7 +8,8 @@ return [
     'allowed_origins' => array_filter([
         'http://localhost:5173',
         'http://127.0.0.1:5173',
-        env('FRONTEND_URL'),   // e.g. https://trvy.vercel.app in production
+        'https://trvy-repo.vercel.app',
+        env('FRONTEND_URL'),
     ]),
 
     'allowed_origins_patterns' => [],
